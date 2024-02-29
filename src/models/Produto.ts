@@ -1,10 +1,12 @@
-import Tema from './Categoria';
+import Categoria from './Categoria';
 
 
 export default interface Produto {
   id: number;
-  titulo: string;
-  texto: string;
-  data: string;
-  tema: Tema | null;
+  descricao: string;
+  estoque: number;
+  nome: string;
+  preco: number;
+  validade: Date;
+  categoria: Categoria | null;
 }
