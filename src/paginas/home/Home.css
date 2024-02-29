@@ -1,0 +1,6 @@
+.fundo{
+    background-image: url('../../assets/fundofarma.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
